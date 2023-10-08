@@ -27,9 +27,7 @@ These devices feature a simple button interface that sends instant alerts to fir
 
 # Resouces
 - Video: https://www.youtube.com/watch?v=2GkS4y5iKZo
-- 
-- Presentation:
-- 
+- Presentation deck: https://drive.google.com/file/d/1RLx6mUlaEDrM8sZ2g-jWySMiQKTo7ms_/view?usp=sharing  
 - App prototype with Figma: https://www.figma.com/proto/5ejQjB8Jh6QDlNc3ndujiX/NASA-CHALLENGE?page-id=57%3A62525&type=design&node-id=57-62594&viewport=2810%2C491%2C0.5&t=3YCwd0Xucq3y7WDs-1&scaling=min-zoom&starting-point-node-id=57%3A62594&mode=design
 
 
