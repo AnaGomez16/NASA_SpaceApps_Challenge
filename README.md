@@ -2,6 +2,39 @@
 
 ![FireGuardian Logo](FG-logo-5.png)
 
+Welcome to FireGuardian, a groundbreaking solution developed as part of NASA Space Apps 2023 challenge: Managing Fire - Increasing Community-based Fire Management Opportunities.
+
+# About FireGuardian
+FireGuardian is an innovative application designed to enhance the capabilities of firefighters and authorities in preventing and rapidly detecting wildfires. Our mission is to provide a comprehensive toolset that empowers those on the front lines of fire management.
+
+# Key Features
+### Part 1: Advanced Fire Detection
+
+Leveraging NASA's FIRMS functionality powered by AI, FireGuardian detects potential fires and promptly notifies firefighters.
+The app initiates a verification process using flight trackers, ensuring accurate identification through real-time data from aircraft cameras.
+
+### Part 2: Predictive Fire Risk Mapping
+
+FireGuardian's second component is a dynamic heat map that assesses the risk of fire outbreak based on historical fire data and current climatic conditions.
+It categorizes areas into three risk levels: low, medium, and high, enabling firefighters to proactively monitor and take preventive measures.
+Real-Time Data Updates with Meteomatics API
+
+FireGuardian keeps you informed with real-time data by seamlessly interfacing with the Meteomatics API, ensuring up-to-the-minute accuracy in fire and weather information.
+Community Involvement with Satellite-powered Devices
+
+We're extending our reach beyond firefighters and authorities by equipping key community members like forest rangers and farmers with satellite-powered devices.
+These devices feature a simple button interface that sends instant alerts to firefighters, including precise geolocation details, even in areas with no cellular coverage.
+
+# Meet the Team
+Alexis Venegas - Data Engineer
+Ana Gomez - Data Scientist - Machine Learning
+Manu León - UX/UI Designer
+Paloma Garcia - Data Scientist & Marketing
+We are a diverse team of passionate individuals committed to revolutionizing fire management. Together, we aim to make a significant impact on wildfire prevention and response, safeguarding both lives and the environment.
+
+Thank you for exploring FireGuardian. Join us on this journey to create a safer, more resilient world. For detailed instructions on setting up and using FireGuardian, please refer to the documentation in this repository.
+
+*****************
 
 # Api request meteomatics File
 
