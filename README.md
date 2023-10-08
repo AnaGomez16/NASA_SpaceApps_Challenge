@@ -37,8 +37,35 @@ This Python script is designed for data processing and manipulation. It performs
 
 5. **Saving Data:** The modified dataframes are then saved as separate CSV files for each region, effectively updating the existing files with the transformed data.
 
-To use this script, you need to ensure that you have the required libraries (`pandas` and `numpy`) installed in your Python environment. You should also have the necessary CSV files (e.g., 'datos_meteorologicos_madrid_2020.csv' and others) in the same directory as the script.
+# IA Predict Images File
 
-You can modify the script to work with other datasets or customize the data transformation functions to suit your specific needs. Make sure to provide the correct file paths for your datasets.
+This Python script uses a pre-trained deep learning model to make predictions on an input image. It performs the following tasks:
 
-Feel free to integrate and adapt this script into your data processing workflow as needed.
+1. **Loading Pre-trained Model:** The script loads a pre-trained deep learning model using Keras. This model is ready for making predictions without the need for further compilation.
+
+2. **Loading Labels:** It loads a list of class labels from a file called "labels.txt." These labels correspond to the categories that the model can recognize.
+
+3. **Preparing Input Image:** The script loads an image from a specified path and prepares it for prediction. It resizes the image to a size of 224x224 pixels and normalizes the pixel values.
+
+4. **Making Predictions:** The script feeds the prepared image to the loaded model and predicts the class label for the image along with a confidence score.
+
+5. **Displaying Prediction:** The predicted class and confidence score are printed to the console.
+
+To use this script, you need to have TensorFlow and Keras installed in your Python environment. Ensure that you have a pre-trained model saved as "keras_Model.h5" and a file containing class labels as "labels.txt" in the same directory as the script.
+
+Replace `<IMAGE_PATH>` with the actual path to the image you want to make predictions on. The script will print the predicted class and confidence score for that image.
+
+Feel free to integrate this script into your image classification project and adapt it as needed.
+
+
+# ML Model File
+
+This Python script performs classification using several machine learning models and evaluates their performance. It includes the following tasks:
+
+1. **Model Initialization:** The script initializes a Gradient Boosting Classifier (`GradientBoostingClassifier`) with specified hyperparameters.
+
+2. **Model Training and Evaluation:** It trains the Gradient Boosting Classifier on the provided data (`X_transformed`) and labels (`y`) using a custom function called `train_predict_test`. This function fits the model, makes predictions, and evaluates the model's performance using various metrics.
+
+3. **List of Models:** The script defines a list of machine learning models, including Random Forest, Logistic Regression, AdaBoost, LightGBM, XGBoost, and K-Nearest Neighbors (KNN).
+
+4. **Model Evaluation:** The `train_predict_test` function is then used to train and evaluate each model in the list. The function fits the model to the data, makes predictions, and prints out evaluation metrics for each model.
