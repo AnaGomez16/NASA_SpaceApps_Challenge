@@ -3,24 +3,26 @@
 ![FireGuardian Logo](FG-logo-5.png)
 
 
-## Description
+## Api_request_meteomatics
 
-FireGuardian is an application designed for firefighters and authorities responsible for the prevention and early detection of wildfires and other natural disasters. Our application leverages innovative technology and publicly available data to enhance the capability of local communities to report and monitor fires and distribute critical fire and weather data.
+### Description
 
-## Key Features
+This script is designed to retrieve weather data using the Meteomatics API for a specific location (in this case, the city of interest) and time period. It imports the necessary libraries, sets up the API credentials, defines the location coordinates, specifies the weather parameters of interest, and sets the date range for data retrieval.
 
-### Part 1: Real-Time Fire Detection
+### Key Components
 
-We utilize the powerful NASA FIRMS (Fire Information for Resource Management System) functionality, which employs artificial intelligence to detect potential fires in real-time. When a potential fire is detected, an immediate alert is sent to firefighters and relevant authorities. Additionally, our application verifies the existence of the fire using the Flight Tracker, which monitors the location of aircraft flying over the area and provides real-time images to confirm the presence of the fire.
+- **Importing Libraries:** The script imports the required Python libraries, including `datetime` and `meteomatics.api` for working with date-time objects and making API requests, respectively. It also uses `pandas` for data manipulation.
 
-### Part 2: Fire Risk Heatmap
+- **API Request:** It sends a request to the Meteomatics API to retrieve weather data for the specified location, time period, and parameters.
 
-FireGuardian also provides a heatmap that utilizes historical fire data and climatic conditions to predict which areas are at higher risk of experiencing a fire in the future. We classify areas into three risk levels: low, medium, and high. This allows firefighters to conduct more detailed monitoring of high-risk areas and proactively take preventive measures. Furthermore, we install weather stations in high-risk areas to continuously monitor climatic conditions.
+- **Data Processing:** After receiving the data, the script adds a date-time column and coordinates columns to the dataset for better analysis and visualization.
 
-### Key Collaborator Alert
+- **Saving Data:** Finally, the script saves the processed data to a CSV file named 'data_Sevilla.csv'.
 
-To facilitate a rapid response to fires, we equip individuals considered key in fire detection, such as forest rangers and farmers conducting controlled burns, with a special device featuring an alert button. This device sends an emergency signal to firefighters via satellite and provides precise geolocation information, even in areas with no signal coverage. This enables an immediate and accurate response to the fire's location.
+### Usage
 
-## How FireGuardian Contributes
+To use this script, you need to replace `'username_example'` and `'password_example'` with your actual Meteomatics API credentials. You can modify the `coordinates`, `parameters`, `startdate`, `enddate`, and `interval` variables to customize the data retrieval for your specific needs.
 
-FireGuardian focuses on empowering local communities and firefighters with the necessary tools for more effective wildfire detection and response. By harnessing real-time fire detection technology and risk prediction, our application helps save lives and protect valuable natural resources.
+Make sure to have the required libraries (`datetime`, `meteomatics.api`, and `pandas`) installed in your Python environment before running the script.
+
+Feel free to adapt and integrate this script into your project as needed to fetch weather data for your desired location and time frame.
