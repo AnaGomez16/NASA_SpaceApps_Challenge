@@ -25,11 +25,21 @@ Community Involvement with Satellite-powered Devices
 We're extending our reach beyond firefighters and authorities by equipping key community members like forest rangers and farmers with satellite-powered devices.
 These devices feature a simple button interface that sends instant alerts to firefighters, including precise geolocation details, even in areas with no cellular coverage.
 
+# Resouces
+- Video: https://www.youtube.com/watch?v=2GkS4y5iKZo
+- 
+- Presentation:
+- 
+- App prototype with Figma: https://www.figma.com/proto/5ejQjB8Jh6QDlNc3ndujiX/NASA-CHALLENGE?page-id=57%3A62525&type=design&node-id=57-62594&viewport=2810%2C491%2C0.5&t=3YCwd0Xucq3y7WDs-1&scaling=min-zoom&starting-point-node-id=57%3A62594&mode=design
+
+
+
 # Meet the Team
-Alexis Venegas - Data Engineer
-Ana Gomez - Data Scientist - Machine Learning
-Manu León - UX/UI Designer
-Paloma Garcia - Data Scientist & Marketing
+- Alexis Venegas - Data Engineer
+- Ana Gomez - Data Scientist - Machine Learning
+- Manu León - UX/UI Designer
+- Paloma Garcia - Data Scientist & Marketing
+  
 We are a diverse team of passionate individuals committed to revolutionizing fire management. Together, we aim to make a significant impact on wildfire prevention and response, safeguarding both lives and the environment.
 
 Thank you for exploring FireGuardian. Join us on this journey to create a safer, more resilient world. For detailed instructions on setting up and using FireGuardian, please refer to the documentation in this repository.
