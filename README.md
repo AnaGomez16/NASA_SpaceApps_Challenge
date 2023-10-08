@@ -1,6 +1,6 @@
 # FireGuardian - Fire and Natural Resource Monitoring Solution
 
-![FireGuardian Logo](https://drive.google.com/file/d/1K3hzCP2qgmJye96zSSM1N9XMTWjqzkOh/view?usp=sharing)
+![FireGuardian Logo]("./FG-logo-5.png)
 
 
 ## Description
@@ -24,9 +24,3 @@ To facilitate a rapid response to fires, we equip individuals considered key in 
 ## How FireGuardian Contributes
 
 FireGuardian focuses on empowering local communities and firefighters with the necessary tools for more effective wildfire detection and response. By harnessing real-time fire detection technology and risk prediction, our application helps save lives and protect valuable natural resources.
-
-## Website
-
-For more information and to start using FireGuardian, please visit our website [here](https://www.fireguardianapp.com).
-
-**Note:** This is a high-level description of the FireGuardian application and does not represent an actual application. The logo image is for visual representation purposes and does not correspond to a real logo.
