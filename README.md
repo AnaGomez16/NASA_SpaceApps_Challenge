@@ -1,6 +1,7 @@
 # FireGuardian - Fire and Natural Resource Monitoring Solution
 
-![FireGuardian Logo](fireguardian_logo.png)
+![FireGuardian Logo](https://drive.google.com/drive/folders/1AfrAzID9ZY2XSjBrrkD-z2EKY8nrPuVM)
+
 
 ## Description
 
