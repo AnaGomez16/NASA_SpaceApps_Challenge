@@ -1,4 +1,4 @@
-# FireGuardian - Fire and Natural Resource Monitoring Solution
+# FireGuardian - Fire and Natural Resources Monitoring Solution
 
 ![FireGuardian Logo](FG-logo-5.png)
 
@@ -44,7 +44,7 @@ Thank you for exploring FireGuardian. Join us on this journey to create a safer,
 
 *****************
 
-# Api request meteomatics File
+# API request meteomatics File
 
 This script is designed to retrieve weather data using the Meteomatics API for a specific location (in this case, the city of interest) and time period. It imports the necessary libraries, sets up the API credentials, defines the location coordinates, specifies the weather parameters of interest, and sets the date range for data retrieval.
 
